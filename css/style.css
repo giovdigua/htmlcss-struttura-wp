@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-image: url("../images/default-pattern.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container{
+
+    width: 95%;
+    height: 800px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.mainHeader{
+    height: 200px;
+    background-color: orange;
+
+}
+
+header {
+    height: 160px;
+    background-color: blue;
+}
+
+nav {
+    height: 40px;
+    background-color: pink;
+}
+
+main{
+    margin: 15px 0;
+    background-color: silver;
+    position: relative;
+}
+
+aside{
+    height: 600px;
+    background-color: yellow;
+}
+
+.left{
+    float: left;
+    width: 18%;
+}
+.mainBody{
+    margin: 0 2%;
+    background-color: orange;
+    width: 54%;
+    height: 650px;
+    float: left;
+}
+.right {
+    float: left;
+    width: 24%;
+}
+
+main:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer{
+    height: 130px;
+    background-color: green;
+}
